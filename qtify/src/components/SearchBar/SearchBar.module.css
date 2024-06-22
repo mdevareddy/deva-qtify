@@ -1,0 +1,85 @@
+.searchBar_container {
+    max-width: 568px;
+    width: 100%;
+  }
+  
+  .search_bar {
+    display: flex;
+    border-radius: 8px;
+    height: 3rem;
+    width: 100%;
+  }
+  .search-btn {
+    width: 10%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid var(--color-black);
+  }
+  
+  .searchInput {
+    border: 1px solid var(--color-black);
+    outline: none;
+    width: 90%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0.5rem 1.25rem;
+    border-right: none;
+  }
+  .listSeacrh {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    padding: 1.25rem 0;
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    min-height: 28.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transform: translate(-50%, 0.75rem);
+    border: 1px solid var(--color-primary);
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  .listSeacrh::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+  .listItem {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0 1.375rem;
+    align-items: center;
+    justify-content: space-between;
+    font-family: inherit;
+    font-weight: 400;
+  }
+  .album_image_artist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .album_image {
+    width: 4.75rem;
+    height: 4.5rem;
+    border-radius: 10px;
+    border: 5px solid #1d1d1d;
+  }
+  .album_song_artist {
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-weight: 400;
+  }
+  .album_name,
+  .albumFollows {
+    line-height: 1.5rem;
+  }
+  .song_artist {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+  .albumFollows {
+  }
+  

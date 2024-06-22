@@ -1,0 +1,21 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+  .secondary {
+    background-color: var(--color-black);
+    color: var(--color-primary);
+  }
+  
+  .other {
+    background-color: var(--color-white);
+  }
+  

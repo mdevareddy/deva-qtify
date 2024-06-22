@@ -1,0 +1,49 @@
+.accordionMain {
+    background-color: var(--color-white);
+    padding: 1px;
+    /* padding: 2px; */
+  
+    border-radius: 10px !important;
+    width: 71vw;
+    max-width: 71rem;
+    /* text-align: center; */
+  }
+  
+  .accordionHeading {
+    height: 4.875rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 10px;
+    /* height: 100%; */
+  }
+  
+  .accordionContent {
+    height: 4.375rem;
+  
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .typoMui {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .accorTypoHeading {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  
+  .accorTypoContent {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  
+  .expandIcon {
+    color: var(--color-primary);
+    font-size: 3.5rem;
+    font-weight: 900;
+  }
+  

@@ -1,0 +1,41 @@
+.carousel-container {
+    position: relative;
+  }
+  .btn-carousel {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 222;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+    /* top: 50%; */
+    top: 104px;
+    /* transform: translate(0, -100%); */
+  }
+  
+  .btn-carousel.next {
+    right: 1rem;
+    /* transform: translate(50%, -100%); */
+    transform: translate(50%, -50%);
+  }
+  
+  .btn-carousel.prev {
+    left: 1rem;
+    transform: translate(-50%, -50%);
+  }
+  
+  .swiper {
+    width: 100%;
+    padding: 0 1rem !important;
+  }
+  
+  .swiper-slide {
+    width: 10rem !important;
+  }
+  
+  .disabled {
+    display: none;
+  }
+  

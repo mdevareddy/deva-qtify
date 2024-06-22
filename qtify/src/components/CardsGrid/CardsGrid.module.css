@@ -1,0 +1,14 @@
+.container {
+    margin: 0 2rem;
+  }
+  .flexWrap {
+    display: flex;
+  
+    overflow: hidden;
+    padding: 0 1rem;
+    column-gap: 2.5rem;
+    row-gap: 1rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
